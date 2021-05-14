@@ -7,22 +7,17 @@ function Navbar() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
-        </Link>
-      </li>
-      <li className="nav-item">
         <Link
-          to="/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/"
+          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
-          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+          to="/projects"
+          className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
         >
           Projects
         </Link>
