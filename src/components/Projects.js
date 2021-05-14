@@ -1,88 +1,26 @@
-import React from 'react';
-import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, Col, Row, Container
-} from 'reactstrap';
+import React from "react";
 
-const Example = (props) => {
+function Portfolio() {
   return (
     <div>
-        <Container>
-        <Row>
-        <Col md={4}>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Project 1.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      <Col md={4}>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Project 2</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      <Col md={4}>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      </Row>
+      <h1>My Projects</h1>
+      <div class="wrapper">
 
-      <Row>
-      <Col md={4}>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      <Col md={4}>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      <Col md={4}>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      </Col>
-      </Row>
-      </Container>
+          <div class="Lyricity">
+          <a href="https://mlcohan.github.io/team9">
+            <img className="lyricity" src="https://static.makeuseof.com/wp-content/uploads/2019/07/Best-Meal-Planning-apps-mealime.png" alt="easicuisi"></img>
+          </a>
+          <h3> Group Project 1: Lyricity </h3>
+          <p class="p1">- Project designed for user to be able to search for lyrics based on song and artist. </p>
+      
+          </div>
 
+          
+
+          
+      </div>
     </div>
   );
-};
+}
 
-export default Example;
+export default Portfolio;
