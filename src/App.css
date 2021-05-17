@@ -30,6 +30,22 @@ h1 {
   
 }
 
+.projectimg {
+  height: 100px;
+  width: 100px; 
+}
+
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
+
 html{
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -39,7 +55,7 @@ html{
 
 .grey{
   background-color: lightgray;
-  border: double darkslateblue
+  border: double lightblue
 }
 
 .white{
@@ -64,11 +80,11 @@ html{
 }
 
 .card-title{
-  color:blueviolet
+  color:lightblue
 }
 
 .link{
-  color:blueviolet
+  color:lightblue
 
 }
 
